@@ -1,3 +1,7 @@
+/* 
+
+this below code is the default code when ithe react app is started int the command prompt
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background-color: #ccc;
+  height: 100vh; 
+  this both will give the background color of the window and 
+  describes the height of the color of the widnow
+
+  */
+}
+
+.card{
+  margin: 12px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
+  padding: 10px;
+  width: 250px;
+  height: 350px;
+  /* display: flex; - it will print in same row */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+
+}
+
+img{
+  /* This will reduce all the image tag inside the code */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
 }
